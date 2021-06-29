@@ -51,6 +51,7 @@ class App extends Component{
 
     return (
       <div className="App Outer-container">
+      <h1>Monster Rolodex</h1>
         <SearchBox 
         placeholder="Search Monsters..."
         handleChange = {this.handleChange}></SearchBox>
